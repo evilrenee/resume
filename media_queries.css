@@ -1,0 +1,391 @@
+/* Collapse nav for smaller laptops */
+@media only screen and (max-height: 700px) {
+
+ .main-container {
+   overflow: auto;
+   padding-top: 5px;
+  }
+
+  .title .renee {
+    font-size: 2em;
+  }
+
+  .title .harris {
+    font-size: 1.65em;
+    padding-bottom: 10px;
+  }
+
+  .title .contact-icons img {
+    display: none;
+  }
+
+  .nav-wrapper, .nonboot-nav-wrapper {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .nav a, .nonboot-nav a {
+    line-height: 15px;
+  }
+}
+
+
+/* Collapse nav */
+@media only screen and (max-height: 700px) and (max-width: 600px) and (min-width: 500px) {
+
+  .main-container {
+    overflow: auto;
+    padding-top: 5px;
+  }
+
+  .title .renee {
+    font-size: 2em;
+  }
+
+  .title .harris {
+    font-size: 1.65em;
+    padding-bottom: 10px;
+  }
+
+  .title .contact-icons img {
+    display: none;
+  }
+
+  .nav-wrapper, .nonboot-nav-wrapper {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+
+  .nav a, .nonboot-nav a {
+    line-height: 35px;
+  }
+}
+
+/* Collapse nav for mobile */
+@media only screen and (max-width: 500px){
+  .main-container {
+    overflow: auto;
+    padding-top: 5px;
+  }
+
+  .title .renee {
+    font-size: 2em;
+  }
+
+  .title .harris {
+    font-size: 1.65em;
+    padding-bottom: 5px;
+  }
+
+  .title .contact-icons {
+    display: none;
+  }
+
+  .nav a, .nonboot-nav a {
+    line-height: 30px;
+  }
+
+  .nav-wrapper, .nonboot-nav-wrapper {
+    margin: 0 auto;
+    width: 200px;
+    padding: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+
+/* Software centers */
+@media only screen and (max-width: 1000px){
+  .about-software {
+    padding-top: 20px;
+  	max-width: 450px;
+  }
+
+  .software {
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .software p {
+  	left: 10px;
+  	top: -10px;
+  }
+
+  .dumb {
+  	top: 0 !important;
+  }
+}
+
+
+/* Software icons center */
+@media only screen and (max-width: 670px){
+    .about-software {
+    	max-width: 310px;
+    }
+}
+
+
+/* Software icons center */
+@media only screen and (max-width: 390px ){
+    .software {
+      float: none;
+      clear: both;
+      margin: 0 auto;
+      display: block;
+    }
+}
+
+/* resize headers */
+@media only screen and (max-height: 700px) and (min-width: 601px) {
+  .header-wrapper {
+    height: 140px;
+  }
+
+  .sm-logo-size {
+    transition: none;
+    padding-top: 0;
+    padding-top: 32px;
+  }
+
+  .kfc-logo-size {
+    transition: none;
+    padding-top: 0;
+    padding-top: 17px;
+  }
+
+  .cc-logo-size {
+    transition: none;
+    padding-top: 0;
+    padding-top: 35px;
+  }
+
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+
+  #myBtn {
+    border-radius: 5px;
+  	background-size: 20px;
+  	width: 35px;
+  	height: 35px;
+    bottom: 50px;
+    right: 5px;
+  }
+
+  #myBtn2 {
+    font-size: .65rem;
+    border-radius: 5px;
+  	width: 35px;
+  	height: 35px;
+    bottom: 95px;
+    right: 5px;
+  }
+
+  .main-container {
+    overflow: auto;
+    margin-right: 3%;
+    margin-left: 3%;
+  }
+
+  .about-wrapper {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .about-wrapper img {
+    width: 200px;
+  	float: none;
+  }
+
+  .about-text {
+    text-align: left;
+  	float: none;
+    padding-left: 0;
+    padding: 20px;
+  }
+
+  .header-wrapper {
+    height: 200px;
+  }
+
+  .painthead {
+  	background-position: -350px 0px;
+  }
+
+  .sketchhead {
+  	background-position: -350px 0px;
+  }
+
+  .celhead {
+  	background-position: -370px 0px;
+  }
+
+  .painthead-text, .sketchhead-text, .celhead-text {
+    padding-top: 80px;
+  	font-size: 2rem;
+  }
+
+
+  .sm-logo-size, .kfc-logo-size, .cc-logo-size {
+    transition: none;
+    visibility: hidden;
+  }
+
+  .sm-logo-size-sml {
+    visibility: visible;
+    width: 180px;
+    position: relative;
+    bottom: 115px;
+  }
+
+  .kcf-logo-size-sml {
+    visibility: visible;
+    width: 200px;
+    position: relative;
+    bottom: 118px;
+  }
+
+  .cc-logo-size-sml {
+    visibility: visible;
+    width: 140px;
+    position: relative;
+    bottom: 85px;
+  }
+
+  .work-nav-wrapper {
+    padding-top: 0px;
+  }
+
+  .work-wrapper {
+    overflow: auto;
+  }
+
+  .work-wrapper, .work-wrapper li {
+    font-size: 0.75rem;
+    line-height: 15px;
+  }
+
+  .work-block-floated {
+  	float: none;
+    clear: both;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .work-block-floated:first-child {
+  	padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .work-block-floated:last-child {
+  	position: relative;
+  	left: 0;
+  	padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .work-block-center {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .third {
+    display: inline-block;
+    overflow: auto;
+    margin: 0 auto;
+    margin: 0;
+  }
+
+  .role-center {
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 450px;
+  }
+
+  .footer .contact a {
+  	opacity: .5;
+  	color: white;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	padding-right: 20px;
+  }
+
+/* role fix */
+@media only screen and (max-width: 529px){
+  .role-center {
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+
+/* role fix */
+@media only screen and (max-width: 400px){
+  .role-center {
+    overflow: auto;
+    margin: 0 auto;
+    max-width: 231px;
+  }
+
+  .work-list {
+    padding-left: 20px;
+  }
+
+  .work-list li {
+    padding-left: 5px;
+  }
+}
+
+/* role fix */
+@media only screen and (max-width: 310px){
+  .role-center {
+    overflow: auto;
+    width: 132px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .third {
+    margin-top: 5px;
+    margin-bottom: -10px;
+  }
+
+  .role {
+    overflow: hidden;
+    float: none;
+    display: block;
+    max-width: 130px;
+    margin: 5% 0;
+    text-align: center;
+  }
+}
+
+
+/* float fix */
+@media only screen and (max-width: 1000px) {
+    .about-wrapper {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .about-wrapper img {
+    	float: none;
+    }
+
+    .about-text {
+      text-align: left;
+    	float: none;
+      margin: 0 auto;
+      padding-left: 0;
+      padding: 20px;
+    }
+}

@@ -1,0 +1,620 @@
+*, html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	float: none;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #1c1919;
+  font-family: "Ebrima", "Inconsolata";
+  color: #999999;
+}
+
+.main-container {
+	overflow: hidden;
+	padding-top: 20px;
+  margin-left: 6%;
+  margin-right: 6%;
+  height: auto;
+  background-color: #1f1c1c;
+	padding-bottom: 40px;
+  min-height: calc(100vh - 83px);
+}
+
+.title {
+  text-align: center;
+  font-family: "Courier";
+}
+
+.title .renee {
+  font-size: 3.4em;
+  font-style: italic;
+  text-transform: lowercase;
+  color: white;
+}
+
+.title .harris {
+  line-height: 10px;
+  padding-bottom: 20px;
+  font-size: 2.8em;
+  font-style: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.title .tagline {
+  font-size: 0.71em;
+  font-weight: 600;
+  color: #9b9b9b;
+}
+
+.title .contact-icons img {
+  margin-top: 18px;
+  height: 25px;
+}
+
+.title .contact-icons a {
+  padding-right: 10px;
+	}
+
+.title .contact-icons a:last-child {
+  padding-right: 0;
+}
+
+.nav-wrapper, .nonboot-nav-wrapper {
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.nav, .nonboot-nav {
+	text-align: center;
+	font-size: 0.8em;
+  font-weight: bold;
+  font-family: "Ebrima";
+  text-transform: uppercase;
+}
+
+.nav li, .nonboot-nav li {
+	list-style: none;
+	display: inline-block;
+  padding-right: 5%;
+}
+
+.nav li a, .nonboot-nav li a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav li:last-child, .nonboot-nav li:last-child {
+  padding-right: 0;
+}
+
+/* reel page */
+
+.reel-wrapper {
+	max-width: 1310px;
+	margin: 0 auto;
+}
+
+.reel-wrapper iframe {
+	width: 640px;
+  height: 360px;
+	display:block;
+	padding-right: 30px;
+	float: left;
+}
+
+.reel-wrapper iframe:last-child {
+	padding-right: 0;
+}
+
+/* about page */
+
+.about-wrapper {
+	margin: 0 auto;
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	max-width: 780px;
+}
+
+.about-wrapper img {
+	float: left;
+}
+
+.about-text {
+	padding-left: 40px;
+	padding-bottom: 70px;
+	font-family: "Ebrima";
+	font-size: 0.8em;
+	white-space: pre-line;
+	max-width: 450px;
+	float: left;
+}
+
+.about-text b {
+	font-weight: bold;
+	color: white;
+}
+
+.about-software {
+	overflow: auto;
+	display: block;
+	margin: 0 auto;
+	max-width: 765px;
+	float: none;
+	clear: both;
+}
+
+.about-software img {
+	display: inline-block;
+	width: 40px !important;
+}
+
+.software {
+	float: left;
+	width: 150px;
+	padding: 20px;
+}
+
+.software p {
+	text-align: left;
+	left: 15px;
+	top: 8px;
+	position: relative;
+	display: inline-block;
+	width: 78px;
+	font-size: .89rem;
+	overflow: auto;
+}
+
+.dumb {
+	top: 0 !important;
+}
+
+/* work nav page */
+
+.work-nav-wrapper {
+	padding-top: 10px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.smhead {
+	background-image: url("assets/work/space_mates/sm_header.jpg");
+}
+
+.kfchead {
+		background-image: url("assets/work/kiwis_can_fly/kcf_header.jpg");
+}
+
+.cchead {
+		background-image: url("assets/work/critter_cosmos/cc_header.jpg");
+}
+
+.painthead {
+	background-image: url("assets/work/illustration/paintings_header.png");
+}
+
+.sketchhead {
+		background-image: url("assets/work/illustration/sketches_header.png");
+}
+
+.celhead {
+		background-image: url("assets/work/illustration/celshaded_header.png");
+}
+
+.boo {
+	text-decoration: none;
+}
+
+.painthead-text, .sketchhead-text, .celhead-text {
+	font-family: Courier;
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding-top: 70px;
+	text-align: center;
+	opacity: 0.8;
+}
+
+.painthead-text {
+	color: #3c3a36;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.sketchhead-text {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.celhead-text {
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.header-wrapper {
+	background-repeat: no-repeat;
+	height: 190px;
+	width: 99%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.header-wrapper img {
+	margin: 0 auto;
+	display: block;
+}
+
+.sm-logo-size {
+	padding-top: 60px;
+	width: 400px;
+}
+
+.sm-logo-size-sml, .kcf-logo-size-sml, .cc-logo-size-sml {
+	visibility: collapse;
+}
+
+.kfc-logo-size {
+	padding-top: 40px;
+	width: 380px;
+}
+
+.cc-logo-size {
+	padding-top: 50px;
+}
+
+.header-wrapper:hover {
+  	transition: .8s ease;
+		filter: contrast(50%) brightness(1.3);
+	}
+
+/* work gallery page */
+
+.work-wrapper {
+	overflow: auto;
+	margin: 0 auto;
+	margin-left: 20px;
+	margin-right: 20px;
+	clear: both;
+	font-size: 0.8rem;
+}
+
+.work-wrapper b {
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.work-hr-center {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.work-hr {
+	width: auto;
+	height: 1px;
+	margin: 10px 10px;
+	background-color: rgba(250, 250, 250, 0.1);
+}
+
+.work-desc {
+	overflow: hidden !important;
+	padding: 0 10px;
+	padding-top: 10px;
+	max-width: 1200px;
+	height: auto;
+	overflow: auto;
+	margin: 0 auto;
+}
+
+.role {
+	width: auto;
+	float: left;
+	font-size: .7rem;
+	overflow: auto;
+	padding: 4px 10px;
+	margin: 2%;
+	border-radius: 8px;
+	opacity: .9;
+	color: #17a2b8;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.role:hover {
+	transition: .3s ease;
+	color: white;
+	border: 1px solid rgba(36,159,208,.7);
+	background-color: rgba(36,159,208,.4);
+}
+
+.jump {
+	text-align: center;
+	font-size: .6rem;
+	font-style: italic;
+	position: relative;
+	top: -8px;
+	opacity: .7;
+}
+
+.work-block-floated {
+	float: left;
+  width: 48%;
+	padding: 0 2%;
+	padding-bottom: 30px;
+}
+
+.twothirds {
+	width: 70%;
+}
+
+.third {
+	width: 30%;
+}
+
+.third b {
+	text-align: center;
+	display: block;
+	padding-bottom: 10px;
+}
+
+.work-block-floated:first-child {
+	padding-left: 0;
+}
+
+.work-block-floated:last-child {
+	position: relative;
+	left: 10px;
+	padding-right: 0;
+}
+
+.work-block-center {
+	clear: none;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.work-role-desc {
+	margin: 0 auto;
+	padding: 0 10px;
+	padding-top: 10px;
+	max-width: 1200px;
+	margin-top: 15px;
+}
+
+.work-list-header {
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 1rem;
+	color: white;
+}
+
+.work-list {
+	padding-left: 40px;
+	font-size: 0.8rem;
+}
+
+.work-list li {
+	list-style-type: disc;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.image-text {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.6rem;
+	background-color: rgba(250, 250, 250, 0.1);
+	position: relative;
+	top: -4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.work-wrapper iframe {
+	width: 900px;
+	height: 501px;
+	display:block;
+	margin: 0 auto;
+	display:block;
+	background: rgb(36,159,208);
+	background: radial-gradient(circle, rgba(36,159,208,0.8071429255295868) 0%, rgba(37,34,34,1) 100%);
+}
+
+.iframepush {
+	margin-bottom: 10px;
+}
+
+.kcf-image a:hover {
+	cursor: pointer;
+	transition: .8s ease;
+	filter: contrast(50%) brightness(1.3);
+}
+
+.kcf-image img {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: block;
+	padding: 0 10px;
+	max-width: 1200px;
+	width:100%;
+	height:100%;
+}
+
+/* contact page */
+
+.contact-wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.contact-wrapper img {
+	padding-top: 20px;
+	float: left;
+}
+
+.contact-text {
+	text-align: center;
+	font-family: "Ebrima";
+	font-size: 0.8em;
+	white-space: pre-line;
+	max-width: 1200px;
+}
+
+.contact-text b {
+	font-weight: bold;
+	color: white;
+}
+
+.responsive-iframe {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+/* footer */
+
+.push {
+	height: 20px;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+  left: 0;
+  right: 0;
+	width: 100%;
+	font-size: 0.6rem;
+	background-color: #131111;
+	padding: 7px;
+	text-align: center;
+	color: #4f4f4f;
+}
+
+.footer span {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.footer p {
+	text-transform: lowercase;
+}
+
+.footer .contact {
+	padding-left: 12px;
+	padding-bottom: 2px;
+}
+
+.footer .contact a {
+	opacity: .5;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+.footer .contact a:last-child {
+	padding-right: none;
+}
+
+.footer .contact a:hover {
+	opacity: 1;
+	transition: .5s;
+}
+
+/*load fade in*/
+
+.work-wrapper, .work-nav-wrapper, .contact-wrapper, .about-wrapper {
+            animation: fadeInAnimation ease 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+a {
+	color: #00c2e1;
+}
+
+
+/*back to top button*/
+
+#myBtn {
+	background-image: url("assets/icons/arrow.png");
+	background-position: center;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 60px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #353333; /* Set a background color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+	filter: drop-shadow(3);
+}
+
+#myBtn2 {
+	background-position: center;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 45px;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+	bottom: 115px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+	color: white;
+  background-color: #353333; /* Set a background color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  border-radius: 10px; /* Rounded corners */
+  font-size: .8rem; /* Increase font size */
+	font-weight: bold;
+	filter: drop-shadow(3);
+}
+
+#myBtn:hover, #myBtn2:hover {
+	transition: .5s;
+	background-color: rgba(36,159,208,.5);
+}

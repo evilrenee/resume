@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renee Harris</title>
+  <meta name="description" content="Illustrator & 3D Artist" />
+  <link rel="stylesheet" type="text/css" href="styles.css?v.3">
+  <link rel="stylesheet" type="text/css" href="media_queries.css?v.3">
+  <style>@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');</style>
+</head>
+
+<body>
+
+  <div class="main-container">
+
+    <div class="title">
+        <h1 class="renee">Renee</h1>
+        <h1 class="harris">Harris</h1>
+
+        <h2 class="tagline">illustrator & 3D artist</h2>
+
+        <div class="contact-icons">
+          <a href="https://www.linkedin.com/in/renee-harris-935557151?originalSubdomain=nz"><img src="assets/icons/linkedin-logo.svg"/></a>
+          <a href="https://www.artstation.com/evilrenee"><img src="assets/icons/artstation.png"/></a>
+          <a href="mailto:art@reneeharris.co.nz?"><img src="assets/icons/email-icon.svg"/></a>
+        </div>
+    </div>
+
+    <div class="nav-wrapper">
+      <ul class="nav">
+          <li><a href="#" style="text-decoration:underline">About</a></li>
+          <li><a href="https://www.artstation.com/evilrenee" target="_blank">Portfolio</a></li>
+          <li><a href="assets/reneeharris_cv.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+
+    <div class="about-wrapper">
+      <img style="border-radius: 100%;" data-src="assets/icons/greb.png"/ >
+      <div style="font-family: 'Courier Prime', monospace; font-size:12pt; max-width: 500px;" class="about-text">Hey, I'm Renee!
+
+        I'm a Wellington based artist with a passion for creating weird, wonderful creatures and worlds. I have a broad set of skills across both 3D and 2D, but exceed at stylized workflows for creatures, characters and environmental assets.
+
+        I've worked in the indie game dev scene for the past couple years. I'm currently available for fulltime work in the industry here in New Zealand or abound.
+
+        For any work related or freelancing enquiries (or queries in general), contact me at:
+
+        <b>art@reneeharris.co.nz</b>
+
+      </div>
+
+      <div style="clear:both; float: none;"></div>
+
+      <div class="about-software">
+
+        <div class="software">
+          <img data-src="assets/icons/maya2.png?v.3" />
+          <p>Maya</p>
+        </div>
+
+        <div class="software">
+          <img data-src="assets/icons/ps.jpg?v.3" />
+          <p>Photoshop</p>
+        </div>
+
+        <div class="software">
+          <img data-src="assets/icons/marmoset.png?v.3" />
+          <p>Marmoset Toolbag</p>
+        </div>
+
+        <div class="software">
+          <img data-src="assets/icons/zbrush.png?v.3" />
+          <p>Zbrush</p>
+        </div>
+
+        <div style="clear:both; float: none;"></div>
+
+        <div class="software">
+          <img data-src="assets/icons/sub.png?v.3" />
+          <p class="dumb">Substance Painter</p>
+        </div>
+
+        <div class="software">
+          <img data-src="assets/icons/3dcoat.png?v.3" />
+          <p>3DCoat</p>
+        </div>
+
+        <div class="software">
+          <img data-src="assets/icons/unity.png?v.3" />
+          <p>Unity</p>
+        </div>
+
+        <div class="software">
+          <img data-src="assets/icons/unreal.png?v.3" />
+          <p>Unreal</p>
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="push"></div>
+
+  <div class="footer">
+
+    <div class="contact">
+      <a href="https://www.linkedin.com/in/renee-harris-935557151?originalSubdomain=nz">linkedin</a>
+      <a href="https://vimeo.com/reneeharts">vimeo</a>
+      <a href="https://www.instagram.com/evil.renee/">instagram</a>
+      <a href="mailto:art@reneeharris.co.nz?">email</a>
+    </div>
+
+    <p>© 2020 Renee Harris, All Rights Reserved<p>
+
+  </div>
+
+  <script>
+
+    [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+       img.setAttribute('src', img.getAttribute('data-src'));
+       img.onload = function() {
+          img.removeAttribute('data-src');
+          };
+    });
+
+  </script>
+
+</body>
+
+</html>
